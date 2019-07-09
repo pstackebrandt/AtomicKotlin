@@ -3067,7 +3067,7 @@
                             <option name="index" value="3" />
                             <option name="name" value="Exercise 2" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
@@ -3088,13 +3088,13 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="8" />
-                                            <option name="offset" value="100" />
+                                            <option name="length" value="5" />
+                                            <option name="offset" value="96" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="if (b1) b2 else false" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
@@ -3111,12 +3111,12 @@
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
                                             <option name="length" value="15" />
-                                            <option name="offset" value="175" />
+                                            <option name="offset" value="168" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="if (b1) true else b2" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
@@ -3164,7 +3164,7 @@
                             <option name="index" value="4" />
                             <option name="name" value="Exercise 3" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="stepikChangeStatus" value="Up to date" />
                             <option name="files">
                               <map>
@@ -3244,7 +3244,7 @@
                             <option name="index" value="1" />
                             <option name="name" value="Examples" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="stepikChangeStatus" value="Up to date" />
                             <option name="files">
                               <map>
@@ -3326,8 +3326,8 @@
                             <option name="index" value="2" />
                             <option name="name" value="Exercise 1" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
-                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="status" value="Solved" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -3347,19 +3347,19 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="62" />
+                                            <option name="length" value="66" />
+                                            <option name="offset" value="97" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="var sum = 0&#10;    var i = 0&#10;    while (i &lt;= number) {&#10;        sum += i&#10;        i++&#10;    }&#10;    return sum" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package repetitionwithwhile1&#10;&#10;fun sum(number: Int): Int {&#10;    TODO()&#10;}&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;    println(sum(10))  // 55&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -3402,7 +3402,7 @@
                             <option name="name" value="Exercise 2" />
                             <option name="record" value="-1" />
                             <option name="status" value="Unchecked" />
-                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -3422,19 +3422,19 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
+                                            <option name="length" value="122" />
                                             <option name="offset" value="63" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="&#10;    var result = 0&#10;    var i = 0&#10;    while (i &lt;= n) {&#10;        if (i % 2 == 0) {&#10;            result += i&#10;        }&#10;        i++&#10;    }&#10;    return result" />
-                                            <option name="selected" value="false" />
+                                            <option name="selected" value="true" />
                                             <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package repetitionwithwhile2&#10;&#10;fun sumOfEven(n: Int): Int {&#10;    TODO()&#10;}&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;    println(sumOfEven(10))  // 30&#10;}" />
                                       <option name="trackChanges" value="true" />
