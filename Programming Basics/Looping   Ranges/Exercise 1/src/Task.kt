@@ -1,7 +1,13 @@
 package loopingandRanges1
 
 fun factorial(n: Int): Long {
-    TODO()
+
+    var product: Long = 1
+    for (x in 1 .. n   ) {
+        product *= x
+    }
+
+    return product
 }
 
 fun main(args: Array<String>) {
