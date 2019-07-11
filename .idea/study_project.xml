@@ -4535,7 +4535,7 @@
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
                                             <option name="length" value="0" />
-                                            <option name="offset" value="23" />
+                                            <option name="offset" value="22" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="" />
                                             <option name="possibleAnswer" value="fun isValidCharacter(ch: Char): Boolean = ch == '_' ||&#10;        ch in 'a'..'z' || ch in 'A'..'Z' ||&#10;        ch in '0'..'9'" />
@@ -4556,8 +4556,8 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="199" />
-                                            <option name="offset" value="102" />
+                                            <option name="length" value="189" />
+                                            <option name="offset" value="108" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="if (s.isEmpty() || s[0] in '0'..'9') return false&#10;    for (ch in s) {&#10;        if (!isValidCharacter(ch)) return false&#10;    }&#10;    return true" />
