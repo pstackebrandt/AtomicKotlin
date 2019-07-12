@@ -1,10 +1,10 @@
 package summary1
 
 fun countDigits(number: Int, digit: Int): Int {
-    var worker = number
+    var worker = number.toString()
     var occurrences = 0
-    while (worker > 0) {
-        TODO()
+    while (worker.length > 0) {
+        if (worker[worker.length-1]) == digit.toChar()
     }
     return occurrences
 }
