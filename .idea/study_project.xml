@@ -4951,7 +4951,7 @@
                             <option name="index" value="3" />
                             <option name="name" value="Exercise 2" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -4971,18 +4971,18 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="61" />
+                                            <option name="length" value="193" />
+                                            <option name="offset" value="58" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="var worker = number&#10;    var result = 0&#10;&#10;    while (worker &gt; 0) {&#10;        result += worker % 10&#10;        worker /= 10&#10;        if (worker != 0) {&#10;            result *= 10&#10;        }&#10;    }&#10;    return result" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package summary2&#10;&#10;fun reverseDecimal(number: Int): Int {&#10;    TODO()&#10;}&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;    println(reverseDecimal(1234))  // 4321&#10;}" />
                                       <option name="trackChanges" value="true" />
