@@ -12,6 +12,7 @@ fun reverseDecimal(number: Int): Int {
             result *= 10
     }
 
+
     return result
 }
 
