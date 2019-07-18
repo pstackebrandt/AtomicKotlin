@@ -5048,7 +5048,7 @@
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="for (i in 1..n) {&#10;        repeat(n - i) {&#10;            print(' ')&#10;        }&#10;        repeat(2 * i - 1) {&#10;            print('#')&#10;        }&#10;        println()&#10;    }" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Failed" />
+                                            <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
@@ -5093,7 +5093,7 @@
                             <option name="index" value="5" />
                             <option name="name" value="Exercise 4" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Failed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -5113,18 +5113,18 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="64" />
+                                            <option name="length" value="324" />
+                                            <option name="offset" value="181" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="val width = (rows * columns).toString().length + 1&#10;    for (i in 0 until rows) {&#10;        for (j in 0 until columns) {&#10;            val value = if (i % 2 == 0) {&#10;                i * columns + j&#10;            } else {&#10;                i * columns + (columns - 1 - j)&#10;            }&#10;            print(&quot;%${width}d&quot;.format(value))&#10;        }&#10;        println()&#10;    }" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package summary4&#10;&#10;fun printSnake(rows: Int, columns: Int) {&#10;    TODO()&#10;}&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;    printSnake(4, 5)&#10;}&#10;/* Output:&#10;  0  1  2  3  4&#10;  9  8  7  6  5&#10; 10 11 12 13 14&#10; 19 18 17 16 15&#10;*/" />
                                       <option name="trackChanges" value="true" />
