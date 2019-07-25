@@ -1,12 +1,22 @@
 package objectsEverywhere3
 
-fun isPalindrome(s: String): Boolean = TODO()
+fun isPalindrome(s: String): Boolean =  s == s.reversed()
 
 fun isPalIgnoreCase(s: String): Boolean =
-        TODO()
+                s.toLowerCase() == s.toLowerCase().reversed()
 
 fun isPalIgnoreSpecial(s: String): Boolean {
-    TODO()
+    var cleaned = s.replace("?", "")
+
+    cleaned = cleaned.replace(".", "")
+    cleaned = cleaned.replace("!", "")
+    cleaned = cleaned.replace("-", "")
+    cleaned = cleaned.replace(".", "")
+    cleaned = cleaned.replace(" ", "")
+    cleaned = cleaned.replace("'", "")
+    cleaned = cleaned.replace(",", "")
+    println(cleaned)
+    return cleaned.toLowerCase() == cleaned.toLowerCase().reversed()
 }
 
 fun main(args: Array<String>) {

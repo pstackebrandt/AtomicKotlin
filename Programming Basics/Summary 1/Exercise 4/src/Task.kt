@@ -1,21 +1,15 @@
 package summary4
 
 fun printSnake(rows: Int, columns: Int) {
-    if (rows < 1 || columns < 1) return
-
     val width = (rows * columns).toString().length + 1
-    var number: Int
-
-    for (row in 0 until rows) {
-        for (column in 0 until columns) {
-            number = row * columns
-            number += if (row % 2 == 0) {
-                column
+    for (i in 0 until rows) {
+        for (j in 0 until columns) {
+            val value = if (i % 2 == 0) {
+                i * columns + j
             } else {
-                columns - 1 - column
+                i * columns + (columns - 1 - j)
             }
-
-            print("%${width}d".format(number))
+            print("%${width}d".format(value))
         }
         println()
     }

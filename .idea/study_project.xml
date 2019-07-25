@@ -5114,12 +5114,12 @@
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
                                             <option name="length" value="324" />
-                                            <option name="offset" value="181" />
+                                            <option name="offset" value="95" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="val width = (rows * columns).toString().length + 1&#10;    for (i in 0 until rows) {&#10;        for (j in 0 until columns) {&#10;            val value = if (i % 2 == 0) {&#10;                i * columns + j&#10;            } else {&#10;                i * columns + (columns - 1 - j)&#10;            }&#10;            print(&quot;%${width}d&quot;.format(value))&#10;        }&#10;        println()&#10;    }" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Failed" />
+                                            <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
@@ -5280,7 +5280,7 @@
                             <option name="index" value="2" />
                             <option name="name" value="Exercise 1" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -5302,12 +5302,12 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="67" />
+                                            <option name="length" value="19" />
+                                            <option name="offset" value="66" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="s.reversed() == s" />
-                                            <option name="selected" value="false" />
+                                            <option name="selected" value="true" />
                                             <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
@@ -5353,7 +5353,7 @@
                             <option name="index" value="3" />
                             <option name="name" value="Exercise 2" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -5375,7 +5375,7 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
+                                            <option name="length" value="20" />
                                             <option name="offset" value="67" />
                                             <option name="placeholderDependency">
                                               <AnswerPlaceholderDependency>
@@ -5407,12 +5407,12 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="121" />
+                                            <option name="length" value="53" />
+                                            <option name="offset" value="130" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="isPalindrome(s.toLowerCase())" />
-                                            <option name="selected" value="false" />
+                                            <option name="selected" value="true" />
                                             <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
@@ -5458,7 +5458,7 @@
                             <option name="index" value="4" />
                             <option name="name" value="Exercise 3" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -5480,7 +5480,7 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
+                                            <option name="length" value="18" />
                                             <option name="offset" value="67" />
                                             <option name="placeholderDependency">
                                               <AnswerPlaceholderDependency>
@@ -5494,8 +5494,8 @@
                                             </option>
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="s.reversed() == s" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -5512,8 +5512,8 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="125" />
+                                            <option name="length" value="53" />
+                                            <option name="offset" value="137" />
                                             <option name="placeholderDependency">
                                               <AnswerPlaceholderDependency>
                                                 <option name="fileName" value="src/Task.kt" />
@@ -5527,7 +5527,7 @@
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="isPalindrome(s.toLowerCase())" />
                                             <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -5544,18 +5544,18 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="182" />
+                                            <option name="length" value="396" />
+                                            <option name="offset" value="241" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="var onlyLetters = &quot;&quot;&#10;    for (c in s) {&#10;        if (c in 'a'..'z' || c in 'A'..'Z') {&#10;            onlyLetters += c&#10;        }&#10;    }&#10;    return isPalIgnoreCase(onlyLetters)" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package objectsEverywhere3&#10;&#10;fun isPalindrome(s: String): Boolean = TODO()&#10;&#10;fun isPalIgnoreCase(s: String): Boolean =&#10;        TODO()&#10;&#10;fun isPalIgnoreSpecial(s: String): Boolean {&#10;    TODO()&#10;}&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;    println(isPalIgnoreSpecial(&quot;Was It A Rat I Saw? ...&quot;))  // true&#10;}" />
                                       <option name="trackChanges" value="true" />
