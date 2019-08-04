@@ -4,10 +4,12 @@ fun countDigits(number: Int, digit: Int): Int {
     var worker = number.toString()
     val digitString = digit.toString()
     var occurrences = 0
+    var lastPos: Int
     var lastValue: String
 
     while (worker.isNotEmpty()) {
-        lastValue= worker[worker.length - 1].toString()
+        lastPos = worker.length - 1
+        lastValue= worker[lastPos].toString()
         if (lastValue == digitString) {
             occurrences += 1
         }

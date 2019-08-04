@@ -2,6 +2,8 @@ package objectsEverywhere3
 
 fun isPalindrome(s: String): Boolean =  s == s.reversed()
 
+
+
 fun isPalIgnoreCase(s: String): Boolean =
                 s.toLowerCase() == s.toLowerCase().reversed()
 

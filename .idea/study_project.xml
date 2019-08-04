@@ -3578,7 +3578,7 @@
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="var result = 1L&#10;    for (i in 1..n) {&#10;        result *= i&#10;    }&#10;    return result" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Solved" />
+                                            <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
@@ -3750,7 +3750,7 @@
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="var result = 0&#10;    for (i in 1..n) {&#10;        if (i % 2 == 0) {&#10;            result += i&#10;        }&#10;    }&#10;    return result" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Solved" />
+                                            <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
@@ -3821,7 +3821,7 @@
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="for (i in 1..n) {&#10;        repeat(i) {&#10;            print(&quot;#&quot;)&#10;        }&#10;        println()&#10;    }" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Solved" />
+                                            <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
@@ -4072,7 +4072,7 @@
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="var s = &quot;&quot;&#10;    for (c in 'a'..'z') {&#10;        s += c&#10;    }&#10;    return s" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Solved" />
+                                            <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
@@ -4143,7 +4143,7 @@
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="var result = 0&#10;    for (i in 0..n step 2) {&#10;        result += i&#10;    }&#10;    return result" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Solved" />
+                                            <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
@@ -4285,7 +4285,7 @@
                                             <option name="placeholderText" value="" />
                                             <option name="possibleAnswer" value="fun isValidCharacter(ch: Char): Boolean = ch == '_' ||&#10;        ch in 'a'..'z' || ch in 'A'..'Z' ||&#10;        ch in '0'..'9'" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Solved" />
+                                            <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -4306,7 +4306,7 @@
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="if (s.isEmpty() || s[0] in '0'..'9') return false&#10;    for (ch in s) {&#10;        if (!isValidCharacter(ch)) return false&#10;    }&#10;    return true" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Solved" />
+                                            <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
@@ -4900,13 +4900,13 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="190" />
-                                            <option name="offset" value="224" />
+                                            <option name="length" value="216" />
+                                            <option name="offset" value="245" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="if (worker % 10 == digit) {&#10;            occurrences++&#10;        }&#10;        worker /= 10" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Solved" />
+                                            <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
@@ -4977,7 +4977,7 @@
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="var worker = number&#10;    var result = 0&#10;&#10;    while (worker &gt; 0) {&#10;        result += worker % 10&#10;        worker /= 10&#10;        if (worker != 0) {&#10;            result *= 10&#10;        }&#10;    }&#10;    return result" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Solved" />
+                                            <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
@@ -5480,7 +5480,7 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="18" />
+                                            <option name="length" value="20" />
                                             <option name="offset" value="67" />
                                             <option name="placeholderDependency">
                                               <AnswerPlaceholderDependency>
@@ -5495,7 +5495,7 @@
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="s.reversed() == s" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Solved" />
+                                            <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -5513,7 +5513,7 @@
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
                                             <option name="length" value="53" />
-                                            <option name="offset" value="137" />
+                                            <option name="offset" value="139" />
                                             <option name="placeholderDependency">
                                               <AnswerPlaceholderDependency>
                                                 <option name="fileName" value="src/Task.kt" />
@@ -5527,7 +5527,7 @@
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="isPalindrome(s.toLowerCase())" />
                                             <option name="selected" value="false" />
-                                            <option name="status" value="Solved" />
+                                            <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -5545,12 +5545,12 @@
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
                                             <option name="length" value="396" />
-                                            <option name="offset" value="241" />
+                                            <option name="offset" value="243" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="var onlyLetters = &quot;&quot;&#10;    for (c in s) {&#10;        if (c in 'a'..'z' || c in 'A'..'Z') {&#10;            onlyLetters += c&#10;        }&#10;    }&#10;    return isPalIgnoreCase(onlyLetters)" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Solved" />
+                                            <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
@@ -5595,7 +5595,7 @@
                             <option name="index" value="5" />
                             <option name="name" value="Exercise 4" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -5615,18 +5615,18 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
+                                            <option name="length" value="36" />
                                             <option name="offset" value="67" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="number.toString().reversed().toInt()" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package objectsEverywhere4&#10;&#10;fun reverseDecimal(number: Int): Int = TODO()&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;    println(reverseDecimal(1234))  // 4321&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -5666,7 +5666,7 @@
                             <option name="index" value="6" />
                             <option name="name" value="Exercise 5" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -5675,7 +5675,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package objectsEverywhere5&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;    val r = IntRange(0, 10)&#10;&#10;    val s = &quot;abc&quot;&#10;&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -5727,7 +5727,7 @@
                             <option name="index" value="1" />
                             <option name="name" value="Examples" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Animals.kt">
