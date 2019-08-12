@@ -1,7 +1,18 @@
 package creatingClasses1
 
+val letters = 'a'..'z'
+
 fun isPalindrome(s: SimpleString): Boolean {
-    TODO()
+    var cleaned = ""
+
+    for (i in 0 until s.length()) {
+        var char = s.get(i)
+        if (char in letters) {
+            cleaned += char
+        }
+    }
+
+    return cleaned == cleaned.reversed()
 }
 
 fun main(args: Array<String>) {
