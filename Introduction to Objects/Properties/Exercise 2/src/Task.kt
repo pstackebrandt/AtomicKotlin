@@ -1,24 +1,35 @@
 package properties2
 
 class Robot {
-    /*TODO*/
+    private var x = 0
+    private var y = 0
+    private val rightBorder = 99
+    private val downBorder = 99
+    private val leftBorder = 0
+    private val topBorder = 0
+    private val width = rightBorder - leftBorder + 1
+    private val height = downBorder - topBorder + 1
     fun goRight(steps: Int) {
-        TODO()
+        x += steps.rem(width)
+        if (x > rightBorder) x = x - width
     }
 
     fun goLeft(steps: Int) {
-        TODO()
+        x -= steps.rem(width)
+        if (x < leftBorder) x = x + width
     }
 
     fun goDown(steps: Int) {
-        TODO()
+        y += steps.rem(height)
+        if (y > downBorder) y = y - height
     }
 
     fun goUp(steps: Int) {
-        TODO()
+        y -= steps.rem(height)
+        if (y < topBorder) y = y + height
     }
 
-    fun getLocation(): String = TODO()
+    fun getLocation(): String = "($x,$y)"
 }
 
 fun main(args: Array<String>) {
