@@ -1,9 +1,9 @@
 package constrainingVisibility2
 
 class Robot(
-private val fieldSize: Int,
-private var x: Int,
-private var y: Int
+    private val fieldSize: Int,
+    private var x: Int,
+    private var y: Int
 ) {
     private fun crossBoundary(coordinate: Int): Int {
         val inBounds = coordinate % fieldSize
@@ -14,22 +14,34 @@ private var y: Int
         }
     }
 
+    private fun validateSteps(steps: Int): Boolean {
+        return if (steps > 0) true
+        else {
+            println("Incorrect input: $steps, the number of steps should be positive.")
+            false
+        }
+    }
+
     fun goRight(steps: Int) {
+        if (validateSteps(steps)) return
         x += steps
         x = crossBoundary(x)
     }
 
     fun goLeft(steps: Int) {
+        if (validateSteps(steps)) return
         x -= steps
         x = crossBoundary(x)
     }
 
     fun goDown(steps: Int) {
+        if (validateSteps(steps)) return
         y += steps
         y = crossBoundary(y)
     }
 
     fun goUp(steps: Int) {
+        if (validateSteps(steps)) return
         y -= steps
         y = crossBoundary(y)
     }
