@@ -7222,7 +7222,7 @@
                                             </option>
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="y -= steps&#10;        y = crossBoundary(y)" />
-                                            <option name="selected" value="false" />
+                                            <option name="selected" value="true" />
                                             <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
@@ -7252,7 +7252,7 @@
                                             </option>
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="&quot;($x,$y)&quot;" />
-                                            <option name="selected" value="false" />
+                                            <option name="selected" value="true" />
                                             <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
@@ -7268,12 +7268,12 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="27" />
+                                            <option name="length" value="85" />
                                             <option name="offset" value="653" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="/*Implement toString here*/" />
                                             <option name="possibleAnswer" value="override fun toString() = &quot;Robot(x=$x,y=$y)&quot;" />
-                                            <option name="selected" value="false" />
+                                            <option name="selected" value="true" />
                                             <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
