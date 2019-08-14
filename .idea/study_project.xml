@@ -6635,7 +6635,7 @@
                             <option name="index" value="4" />
                             <option name="name" value="Exercise 3" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -6644,7 +6644,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package properties3&#10;&#10;class Counter {&#10;    var value = 0&#10;&#10;    fun inc() {&#10;        value += 10&#10;    }&#10;&#10;    fun dec() {&#10;        value -= 10&#10;    }&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -6696,7 +6696,7 @@
                             <option name="index" value="1" />
                             <option name="name" value="Examples" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Arg.kt">
@@ -6787,7 +6787,7 @@
                             <option name="index" value="2" />
                             <option name="name" value="Exercise 1" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -6807,13 +6807,13 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="8" />
+                                            <option name="length" value="0" />
                                             <option name="offset" value="35" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="/*TODO*/" />
                                             <option name="possibleAnswer" value="val fieldSize: Int, var x: Int, var y: Int" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -6827,9 +6827,9 @@
                                                 <option name="offset" value="47" />
                                               </MyInitialState>
                                             </option>
-                                            <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="0" />
-                                            <option name="offset" value="47" />
+                                            <option name="initializedFromDependency" value="true" />
+                                            <option name="length" value="167" />
+                                            <option name="offset" value="35" />
                                             <option name="placeholderDependency">
                                               <AnswerPlaceholderDependency>
                                                 <option name="fileName" value="src/Task.kt" />
@@ -6842,8 +6842,8 @@
                                             </option>
                                             <option name="placeholderText" value="" />
                                             <option name="possibleAnswer" value="    fun crossBoundary(coordinate: Int): Int {&#10;        val inBounds = coordinate % fieldSize&#10;        return if (inBounds &lt; 0) {&#10;           fieldSize + inBounds&#10;        }&#10;        else {&#10;            inBounds&#10;        }&#10;    }&#10;" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -6857,9 +6857,9 @@
                                                 <option name="offset" value="86" />
                                               </MyInitialState>
                                             </option>
-                                            <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="86" />
+                                            <option name="initializedFromDependency" value="true" />
+                                            <option name="length" value="64" />
+                                            <option name="offset" value="242" />
                                             <option name="placeholderDependency">
                                               <AnswerPlaceholderDependency>
                                                 <option name="fileName" value="src/Task.kt" />
@@ -6872,8 +6872,8 @@
                                             </option>
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="x += steps&#10;        x = crossBoundary(x)" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -6887,9 +6887,9 @@
                                                 <option name="offset" value="137" />
                                               </MyInitialState>
                                             </option>
-                                            <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="137" />
+                                            <option name="initializedFromDependency" value="true" />
+                                            <option name="length" value="63" />
+                                            <option name="offset" value="351" />
                                             <option name="placeholderDependency">
                                               <AnswerPlaceholderDependency>
                                                 <option name="fileName" value="src/Task.kt" />
@@ -6902,8 +6902,8 @@
                                             </option>
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="x -= steps&#10;        x = crossBoundary(x)" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -6917,9 +6917,9 @@
                                                 <option name="offset" value="188" />
                                               </MyInitialState>
                                             </option>
-                                            <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="188" />
+                                            <option name="initializedFromDependency" value="true" />
+                                            <option name="length" value="65" />
+                                            <option name="offset" value="459" />
                                             <option name="placeholderDependency">
                                               <AnswerPlaceholderDependency>
                                                 <option name="fileName" value="src/Task.kt" />
@@ -6933,7 +6933,7 @@
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="y += steps&#10;        y = crossBoundary(y)" />
                                             <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -6947,9 +6947,9 @@
                                                 <option name="offset" value="237" />
                                               </MyInitialState>
                                             </option>
-                                            <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="237" />
+                                            <option name="initializedFromDependency" value="true" />
+                                            <option name="length" value="64" />
+                                            <option name="offset" value="567" />
                                             <option name="placeholderDependency">
                                               <AnswerPlaceholderDependency>
                                                 <option name="fileName" value="src/Task.kt" />
@@ -6962,8 +6962,8 @@
                                             </option>
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="y -= steps&#10;        y = crossBoundary(y)" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -6977,9 +6977,9 @@
                                                 <option name="offset" value="283" />
                                               </MyInitialState>
                                             </option>
-                                            <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="283" />
+                                            <option name="initializedFromDependency" value="true" />
+                                            <option name="length" value="9" />
+                                            <option name="offset" value="671" />
                                             <option name="placeholderDependency">
                                               <AnswerPlaceholderDependency>
                                                 <option name="fileName" value="src/Task.kt" />
@@ -6993,12 +6993,12 @@
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="&quot;($x,$y)&quot;" />
                                             <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package constructors1&#10;&#10;class Robot(/*TODO*/) {&#10;&#10;    fun goRight(steps: Int) {&#10;        TODO()&#10;    }&#10;&#10;    fun goLeft(steps: Int) {&#10;        TODO()&#10;    }&#10;&#10;    fun goDown(steps: Int) {&#10;        TODO()&#10;    }&#10;&#10;    fun goUp(steps: Int) {&#10;        TODO()&#10;    }&#10;&#10;    fun getLocation(): String = TODO()&#10;}&#10;&#10;/*&#10;fun main(args: Array&lt;String&gt;) {&#10;    val robot = Robot(10, 1, 1)&#10;    println(robot.getLocation())&#10;    robot.goUp(2)&#10;    println(robot.getLocation())&#10;    robot.goLeft(10)&#10;    println(robot.getLocation())&#10;}&#10;*/&#10;/* Output:&#10;(1,1)&#10;(1,9)&#10;(1,9)&#10;*/" />
                                       <option name="trackChanges" value="true" />
@@ -7038,7 +7038,7 @@
                             <option name="index" value="3" />
                             <option name="name" value="Exercise 2" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Failed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -7057,9 +7057,9 @@
                                                 <option name="offset" value="35" />
                                               </MyInitialState>
                                             </option>
-                                            <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="8" />
-                                            <option name="offset" value="35" />
+                                            <option name="initializedFromDependency" value="true" />
+                                            <option name="length" value="0" />
+                                            <option name="offset" value="23" />
                                             <option name="placeholderDependency">
                                               <AnswerPlaceholderDependency>
                                                 <option name="fileName" value="src/Task.kt" />
@@ -7073,7 +7073,7 @@
                                             <option name="placeholderText" value="/*TODO*/" />
                                             <option name="possibleAnswer" value="val fieldSize: Int, var x: Int, var y: Int" />
                                             <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -7087,9 +7087,9 @@
                                                 <option name="offset" value="47" />
                                               </MyInitialState>
                                             </option>
-                                            <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="0" />
-                                            <option name="offset" value="47" />
+                                            <option name="initializedFromDependency" value="true" />
+                                            <option name="length" value="147" />
+                                            <option name="offset" value="23" />
                                             <option name="placeholderDependency">
                                               <AnswerPlaceholderDependency>
                                                 <option name="fileName" value="src/Task.kt" />
@@ -7102,8 +7102,8 @@
                                             </option>
                                             <option name="placeholderText" value="" />
                                             <option name="possibleAnswer" value="    fun crossBoundary(coordinate: Int): Int {&#10;        val inBounds = coordinate % fieldSize&#10;        return if (inBounds &lt; 0) {&#10;           fieldSize + inBounds&#10;        }&#10;        else {&#10;            inBounds&#10;        }&#10;    }&#10;" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -7117,9 +7117,9 @@
                                                 <option name="offset" value="86" />
                                               </MyInitialState>
                                             </option>
-                                            <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="86" />
+                                            <option name="initializedFromDependency" value="true" />
+                                            <option name="length" value="64" />
+                                            <option name="offset" value="209" />
                                             <option name="placeholderDependency">
                                               <AnswerPlaceholderDependency>
                                                 <option name="fileName" value="src/Task.kt" />
@@ -7133,7 +7133,7 @@
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="x += steps&#10;        x = crossBoundary(x)" />
                                             <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -7147,9 +7147,9 @@
                                                 <option name="offset" value="137" />
                                               </MyInitialState>
                                             </option>
-                                            <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="137" />
+                                            <option name="initializedFromDependency" value="true" />
+                                            <option name="length" value="63" />
+                                            <option name="offset" value="318" />
                                             <option name="placeholderDependency">
                                               <AnswerPlaceholderDependency>
                                                 <option name="fileName" value="src/Task.kt" />
@@ -7162,8 +7162,8 @@
                                             </option>
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="x -= steps&#10;        x = crossBoundary(x)" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -7177,9 +7177,9 @@
                                                 <option name="offset" value="188" />
                                               </MyInitialState>
                                             </option>
-                                            <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="188" />
+                                            <option name="initializedFromDependency" value="true" />
+                                            <option name="length" value="65" />
+                                            <option name="offset" value="426" />
                                             <option name="placeholderDependency">
                                               <AnswerPlaceholderDependency>
                                                 <option name="fileName" value="src/Task.kt" />
@@ -7193,7 +7193,7 @@
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="y += steps&#10;        y = crossBoundary(y)" />
                                             <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -7207,9 +7207,9 @@
                                                 <option name="offset" value="237" />
                                               </MyInitialState>
                                             </option>
-                                            <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="237" />
+                                            <option name="initializedFromDependency" value="true" />
+                                            <option name="length" value="64" />
+                                            <option name="offset" value="534" />
                                             <option name="placeholderDependency">
                                               <AnswerPlaceholderDependency>
                                                 <option name="fileName" value="src/Task.kt" />
@@ -7223,7 +7223,7 @@
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="y -= steps&#10;        y = crossBoundary(y)" />
                                             <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -7237,9 +7237,9 @@
                                                 <option name="offset" value="283" />
                                               </MyInitialState>
                                             </option>
-                                            <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="283" />
+                                            <option name="initializedFromDependency" value="true" />
+                                            <option name="length" value="9" />
+                                            <option name="offset" value="638" />
                                             <option name="placeholderDependency">
                                               <AnswerPlaceholderDependency>
                                                 <option name="fileName" value="src/Task.kt" />
@@ -7253,7 +7253,7 @@
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="&quot;($x,$y)&quot;" />
                                             <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -7269,17 +7269,17 @@
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
                                             <option name="length" value="27" />
-                                            <option name="offset" value="295" />
+                                            <option name="offset" value="653" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="/*Implement toString here*/" />
                                             <option name="possibleAnswer" value="override fun toString() = &quot;Robot(x=$x,y=$y)&quot;" />
                                             <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package constructors2&#10;&#10;class Robot(/*TODO*/) {&#10;&#10;    fun goRight(steps: Int) {&#10;        TODO()&#10;    }&#10;&#10;    fun goLeft(steps: Int) {&#10;        TODO()&#10;    }&#10;&#10;    fun goDown(steps: Int) {&#10;        TODO()&#10;    }&#10;&#10;    fun goUp(steps: Int) {&#10;        TODO()&#10;    }&#10;&#10;    fun getLocation(): String = TODO()&#10;&#10;    /*Implement toString here*/&#10;}&#10;&#10;/*&#10;fun main(args: Array&lt;String&gt;) {&#10;    val robot = Robot(10, 1, 1)&#10;    println(robot)&#10;}&#10;*/&#10;/* Output:&#10;Robot(1,1)&#10;*/" />
                                       <option name="trackChanges" value="true" />

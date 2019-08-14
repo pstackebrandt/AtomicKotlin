@@ -1,24 +1,37 @@
 package constructors1
 
-class Robot(/*TODO*/) {
+class Robot(val fieldSize: Int, var x: Int, var y: Int) {
+    fun crossBoundary(coordinate: Int): Int {
+        val inBounds = coordinate % fieldSize
+        return if (inBounds < 0) {
+            fieldSize + inBounds
+        }
+        else {
+            inBounds
+        }
+    }
 
     fun goRight(steps: Int) {
-        TODO()
+        x += steps
+        x = crossBoundary(x)
     }
 
     fun goLeft(steps: Int) {
-        TODO()
+        x -= steps
+        x = crossBoundary(x)
     }
 
     fun goDown(steps: Int) {
-        TODO()
+        y += steps
+        y = crossBoundary(y)
     }
 
     fun goUp(steps: Int) {
-        TODO()
+        y -= steps
+        y = crossBoundary(y)
     }
 
-    fun getLocation(): String = TODO()
+    fun getLocation(): String = "($x,$y)"
 }
 
 /*
