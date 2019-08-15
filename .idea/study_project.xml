@@ -8059,7 +8059,7 @@
                             <option name="index" value="4" />
                             <option name="name" value="Exercise 3" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -8068,7 +8068,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package constrainingVisibility3&#10;&#10;fun printSum(x: Int) {&#10;    if (x &lt;= 0) {&#10;        println(&quot;Incorrect input: $x should be positive&quot;)&#10;        return&#10;    }&#10;    println((0..x).sum())&#10;}&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;    printSum(-10)&#10;}&#10;/* Output:&#10;Incorrect input: -10 should be positive&#10;*/" />
                                       <option name="trackChanges" value="true" />
@@ -8108,7 +8108,7 @@
                             <option name="index" value="5" />
                             <option name="name" value="Exercise 4" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -8117,7 +8117,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package constrainingVisibility4&#10;&#10;fun printSum(x: Int) {&#10;    if (x &lt;= 0) {&#10;        println(&quot;Incorrect input: $x should be positive&quot;)&#10;        return&#10;    }&#10;    println((0..x).sum())&#10;}&#10;&#10;fun printAverage(x: Int) {&#10;    if (x &lt;= 0) {&#10;        println(&quot;Incorrect input: $x should be positive&quot;)&#10;        return&#10;    }&#10;    println((0..x).average())&#10;}&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;    printSum(-10)&#10;    printAverage(-10)&#10;}&#10;/* Output:&#10;Incorrect input: -10 should be positive&#10;Incorrect input: -10 should be positive&#10;*/" />
                                       <option name="trackChanges" value="true" />
@@ -8169,7 +8169,7 @@
                             <option name="index" value="1" />
                             <option name="name" value="Examples" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/ImportClass.kt">
@@ -8274,7 +8274,7 @@
                             <option name="index" value="2" />
                             <option name="name" value="Exercise 1" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -8294,18 +8294,18 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="8" />
-                                            <option name="offset" value="0" />
+                                            <option name="length" value="95" />
+                                            <option name="offset" value="46" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="/*TODO*/" />
                                             <option name="possibleAnswer" value="package pythagorean&#10;&#10;import kotlin.math.sqrt&#10;&#10;class EquilateralTriangle(val side: Double) {&#10;    fun area() = sqrt(3.0) / 4 * side * side&#10;}" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="/*TODO*/" />
                                       <option name="trackChanges" value="true" />
@@ -8359,7 +8359,7 @@
                             <option name="index" value="3" />
                             <option name="name" value="Exercise 2" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -8368,7 +8368,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package importsandPackages2&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;//    val t = Isosceles&#10;}" />
                                       <option name="trackChanges" value="true" />
