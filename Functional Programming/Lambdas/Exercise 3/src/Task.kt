@@ -5,14 +5,15 @@ import atomictest.eq
 data class Student(val id: Int, val name: String)
 
 fun registerStudents(names: List<String>, startId: Int = 0): List<Student> {
-    TODO()
+    return names.withIndex()
+        .map { (index, name) -> Student(startId + index, name) }
 }
 
 fun main(args: Array<String>) {
     val students = listOf("Alice", "Bob")
     registerStudents(students) eq
-            listOf(Student(0, "Alice"), Student(1, "Bob"))
+        listOf(Student(0, "Alice"), Student(1, "Bob"))
 
     registerStudents(students, startId = 10) eq
-            listOf(Student(10, "Alice"), Student(11, "Bob"))
+        listOf(Student(10, "Alice"), Student(11, "Bob"))
 }

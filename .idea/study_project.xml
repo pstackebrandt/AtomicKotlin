@@ -8434,7 +8434,7 @@
                             <option name="index" value="1" />
                             <option name="name" value="Examples" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/TestingExample.kt">
@@ -8443,7 +8443,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/TestingExample.kt" />
                                       <option name="text" value="// Testing/TestingExample.kt&#10;import atomictest.*&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;  val v1 = 11&#10;  val v2 = &quot;Ontology&quot;&#10;&#10;  // Test expressions using 'eq' (&quot;equals&quot;):&#10;  v1 eq 11&#10;  v2 eq &quot;Ontology&quot;&#10;&#10;  // 'neq' means &quot;not equal&quot;&#10;  v2 neq &quot;Epistimology&quot;&#10;&#10;  // Error: Epistimology != Ontology&#10;  // v2 eq &quot;Epistimology&quot;&#10;}&#10;/* Output:&#10;11&#10;Ontology&#10;Ontology&#10;*/" />
                                       <option name="trackChanges" value="true" />
@@ -8511,7 +8511,7 @@
                             <option name="index" value="2" />
                             <option name="name" value="Exercise 1" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -8536,8 +8536,8 @@
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="x * x" />
                                             <option name="possibleAnswer" value="x * y" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -8552,18 +8552,18 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="15" />
+                                            <option name="length" value="17" />
                                             <option name="offset" value="159" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="h / 2 * (x + y)" />
                                             <option name="possibleAnswer" value="h / 2.0 * (x + y)" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package testing1&#10;&#10;import atomictest.eq&#10;&#10;fun squareArea(x: Int) = x * x&#10;&#10;fun rectangleArea(x: Int, y: Int) = x * x&#10;&#10;fun trapezoidArea(x: Int, y: Int, h: Int) = h / 2 * (x + y)&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;    squareArea(1) eq 1&#10;    squareArea(2) eq 4&#10;    squareArea(5) eq 25&#10;    rectangleArea(2, 2) eq 4&#10;    rectangleArea(5, 4) eq 20&#10;    trapezoidArea(2, 2, 4) eq 8.0&#10;    trapezoidArea(3, 4, 1) eq 3.5&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -8603,7 +8603,7 @@
                             <option name="index" value="3" />
                             <option name="name" value="Exercise 2" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -8612,7 +8612,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package testing2&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;//    println(&quot;Uncomment me&quot;)&#10;    println(&quot;Comment me&quot;)&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -8664,7 +8664,7 @@
                             <option name="index" value="1" />
                             <option name="name" value="Examples" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/ToIntException.kt">
@@ -8673,7 +8673,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/ToIntException.kt" />
                                       <option name="text" value="// Exceptions/ToIntException.kt&#10;&#10;fun erroneousCode() {&#10;  // Uncomment this line to get an exception:&#10;  // val i = &quot;1$&quot;.toInt()        // [1]&#10;}&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;  erroneousCode()&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -14861,7 +14861,7 @@
                             <option name="index" value="1" />
                             <option name="name" value="Examples" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/BasicLambda.kt">
@@ -14870,7 +14870,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/BasicLambda.kt" />
                                       <option name="text" value="// Lambdas/BasicLambda.kt&#10;import atomictest.eq&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;  val list = listOf(1, 2, 3, 4)&#10;  val result = list.map({ n: Int -&gt; &quot;[$n]&quot; })&#10;  result eq listOf(&quot;[1]&quot;,&quot;[2]&quot;,&quot;[3]&quot;,&quot;[4]&quot;)&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -15036,7 +15036,7 @@
                             <option name="index" value="2" />
                             <option name="name" value="Exercise 1" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -15056,18 +15056,18 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
+                                            <option name="length" value="9" />
                                             <option name="offset" value="109" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="it.length" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package lambdas1&#10;&#10;import atomictest.eq&#10;&#10;fun transform(list: List&lt;String&gt;): List&lt;Int&gt; {&#10;    return list.map { TODO() }&#10;}&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;    transform(listOf(&quot;abc&quot;, &quot;ab&quot;)) eq listOf(3, 2)&#10;    transform(listOf(&quot;&quot;, &quot;abdef&quot;, &quot;x&quot;)) eq listOf(0, 5, 1)&#10;    transform(listOf(&quot;123456789&quot;)) eq listOf(9)&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -15107,7 +15107,7 @@
                             <option name="index" value="3" />
                             <option name="name" value="Exercise 2" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -15127,18 +15127,18 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="186" />
+                                            <option name="length" value="43" />
+                                            <option name="offset" value="181" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="return books.map { it.author }.toSet()" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package lambdas2&#10;&#10;import atomictest.eq&#10;&#10;data class Author(val name: String)&#10;&#10;data class Book(val title: String, val author: Author)&#10;&#10;fun getAuthors(books: List&lt;Book&gt;): Set&lt;Author&gt; {&#10;    TODO()&#10;}&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;    val books = listOf(&#10;            Book(&quot;The Philosopher's Stone&quot;, Author(&quot;J. K. Rowling&quot;)),&#10;            Book(&quot;The Chamber of Secrets&quot;, Author(&quot;J. K. Rowling&quot;)),&#10;            Book(&quot;The Prisoner of Azkaban&quot;, Author(&quot;J. K. Rowling&quot;)),&#10;            Book(&quot;The Goblet of Fire&quot;, Author(&quot;J. K. Rowling&quot;)),&#10;            Book(&quot;The Order of the Phoenix&quot;, Author(&quot;J. K. Rowling&quot;)),&#10;            Book(&quot;The Half-Blood Prince&quot;, Author(&quot;J. K. Rowling&quot;)),&#10;            Book(&quot;The Deathly Hallows&quot;, Author(&quot;J. K. Rowling&quot;))&#10;    )&#10;    getAuthors(books) eq setOf(Author(&quot;J. K. Rowling&quot;))&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -15178,7 +15178,7 @@
                             <option name="index" value="4" />
                             <option name="name" value="Exercise 3" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -15198,18 +15198,18 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
+                                            <option name="length" value="89" />
                                             <option name="offset" value="172" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="return names.mapIndexed { index, name -&gt; Student(startId + index, name) }" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package lambdas3&#10;&#10;import atomictest.eq&#10;&#10;data class Student(val id: Int, val name: String)&#10;&#10;fun registerStudents(names: List&lt;String&gt;, startId: Int = 0): List&lt;Student&gt; {&#10;    TODO()&#10;}&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;    val students = listOf(&quot;Alice&quot;, &quot;Bob&quot;)&#10;    registerStudents(students) eq&#10;            listOf(Student(0, &quot;Alice&quot;), Student(1, &quot;Bob&quot;))&#10;&#10;    registerStudents(students, startId = 10) eq&#10;            listOf(Student(10, &quot;Alice&quot;), Student(11, &quot;Bob&quot;))&#10;}" />
                                       <option name="trackChanges" value="true" />
