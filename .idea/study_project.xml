@@ -14383,7 +14383,7 @@
                             <option name="index" value="1" />
                             <option name="name" value="Examples" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/RigidHolder.kt">
@@ -14649,7 +14649,7 @@
                             <option name="index" value="1" />
                             <option name="name" value="Examples" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/StringIndices.kt">
@@ -15548,7 +15548,7 @@
                             <option name="index" value="1" />
                             <option name="name" value="Examples" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/CreatingLists.kt">
@@ -15695,7 +15695,7 @@
                             <option name="index" value="2" />
                             <option name="name" value="Exercise 1" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Failed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -15715,18 +15715,18 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="185" />
+                                            <option name="length" value="169" />
+                                            <option name="offset" value="186" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="return people.sortedByDescending { it.age }&#10;            .take(requiredNumber).map { it.name }.sorted()" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package operationsonCollections1&#10;&#10;import atomictest.eq&#10;&#10;data class Person(val name: String, val age: Int)&#10;&#10;fun findOldest(people: List&lt;Person&gt;, requiredNumber: Int): List&lt;String&gt; {&#10;    TODO()&#10;}&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;    val people = listOf(&#10;            Person(&quot;Bob&quot;, 30),&#10;            Person(&quot;Charlie&quot;, 20),&#10;            Person(&quot;Alice&quot;, 25))&#10;    findOldest(people, 1) eq listOf(&quot;Bob&quot;)&#10;    findOldest(people, 2) eq listOf(&quot;Alice&quot;, &quot;Bob&quot;)&#10;}" />
                                       <option name="trackChanges" value="true" />
