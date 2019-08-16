@@ -15261,7 +15261,7 @@
                             <option name="index" value="1" />
                             <option name="name" value="Examples" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/FilterEven.kt">
@@ -15394,7 +15394,7 @@
                             <option name="index" value="2" />
                             <option name="name" value="Exercise 1" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -15414,18 +15414,18 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
+                                            <option name="length" value="54" />
                                             <option name="offset" value="157" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="return filter { it.age &gt; 17 }.map { it.name }" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package theImportanceofLambdas1&#10;&#10;import atomictest.eq&#10;&#10;class Person(val name: String, val age: Int)&#10;&#10;fun List&lt;Person&gt;.getNamesOfAdults(): List&lt;String&gt; {&#10;    TODO()&#10;}&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;    val people = listOf(Person(&quot;Alice&quot;, 17), Person(&quot;Bob&quot;, 19))&#10;    people.getNamesOfAdults() eq listOf(&quot;Bob&quot;)&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -15465,7 +15465,7 @@
                             <option name="index" value="3" />
                             <option name="name" value="Exercise 2" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -15485,18 +15485,18 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
+                                            <option name="length" value="41" />
                                             <option name="offset" value="117" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="return strings.filter { it.isNotBlank() }" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package theImportanceofLambdas2&#10;&#10;import atomictest.eq&#10;&#10;fun filterNonBlank(strings: List&lt;String&gt;): List&lt;String&gt; {&#10;    TODO()&#10;}&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;    filterNonBlank(listOf(&quot;&quot;, &quot;a&quot;, &quot;  &quot;)) eq listOf(&quot;a&quot;)&#10;}" />
                                       <option name="trackChanges" value="true" />
