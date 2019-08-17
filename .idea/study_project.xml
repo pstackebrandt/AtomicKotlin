@@ -15695,7 +15695,7 @@
                             <option name="index" value="2" />
                             <option name="name" value="Exercise 1" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Failed" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -15721,7 +15721,7 @@
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="return people.sortedByDescending { it.age }&#10;            .take(requiredNumber).map { it.name }.sorted()" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Failed" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
@@ -15766,7 +15766,7 @@
                             <option name="index" value="3" />
                             <option name="name" value="Exercise 2" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -15786,18 +15786,18 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
+                                            <option name="length" value="10" />
                                             <option name="offset" value="84" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="&#10;    x in setOf(1, 5, 32)&#10;    // other options:&#10;    // x % 5 == 0&#10;    // x.toString().contains('5')&#10;" />
                                             <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package operationsonCollections2&#10;&#10;import atomictest.eq&#10;&#10;val operation = { x: Int -&gt; TODO()}&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;    val first = listOf(1, 5, 32, 45, 70, 511)&#10;    first.any(operation) eq true&#10;    first.all(operation) eq false&#10;    first.none(operation) eq false&#10;    first.count(operation) eq 3&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -15837,7 +15837,7 @@
                             <option name="index" value="4" />
                             <option name="name" value="Exercise 3" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -15857,18 +15857,18 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
+                                            <option name="length" value="33" />
                                             <option name="offset" value="93" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="return list.filterNotNull().sum()" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package operationsonCollections3&#10;&#10;import atomictest.eq&#10;&#10;fun sum(list: List&lt;Int?&gt;): Int {&#10;    TODO()&#10;}&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;    sum(listOf(1, 2, null)) eq 3&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -15908,7 +15908,7 @@
                             <option name="index" value="5" />
                             <option name="name" value="Exercise 4" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Failed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -15934,7 +15934,7 @@
                                             <option name="placeholderText" value="" />
                                             <option name="possibleAnswer" value="" />
                                             <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -15949,13 +15949,13 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
+                                            <option name="length" value="7" />
                                             <option name="offset" value="138" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="it == 0" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -15971,12 +15971,12 @@
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
                                             <option name="length" value="0" />
-                                            <option name="offset" value="177" />
+                                            <option name="offset" value="178" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="" />
                                             <option name="possibleAnswer" value="!" />
                                             <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -15991,13 +15991,13 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="183" />
+                                            <option name="length" value="7" />
+                                            <option name="offset" value="184" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="it == 0" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -16013,12 +16013,12 @@
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
                                             <option name="length" value="0" />
-                                            <option name="offset" value="263" />
+                                            <option name="offset" value="265" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="" />
                                             <option name="possibleAnswer" value="!" />
                                             <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -16033,13 +16033,13 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="270" />
+                                            <option name="length" value="7" />
+                                            <option name="offset" value="272" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="it == 0" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -16055,12 +16055,12 @@
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
                                             <option name="length" value="0" />
-                                            <option name="offset" value="306" />
+                                            <option name="offset" value="309" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="" />
                                             <option name="possibleAnswer" value="" />
                                             <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                           <AnswerPlaceholder>
@@ -16075,18 +16075,18 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="6" />
-                                            <option name="offset" value="312" />
+                                            <option name="length" value="7" />
+                                            <option name="offset" value="315" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="TODO()" />
                                             <option name="possibleAnswer" value="it == 0" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="package operationsonCollections4&#10;&#10;import atomictest.eq&#10;&#10;fun List&lt;Int&gt;.allNonZero() = all { it != 0 }&#10;fun List&lt;Int&gt;.allNonZero1() = none { TODO() }&#10;fun List&lt;Int&gt;.allNonZero2() = any { TODO() }&#10;&#10;fun List&lt;Int&gt;.hasZero() = !all { it != 0 }&#10;fun List&lt;Int&gt;.hasZero1() = none { TODO() }&#10;fun List&lt;Int&gt;.hasZero2() = any { TODO() }&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;    val list1 = listOf(1, 2, 3)&#10;    list1.allNonZero() eq true&#10;    list1.allNonZero1() eq true&#10;    list1.allNonZero2() eq true&#10;&#10;    list1.hasZero() eq false&#10;    list1.hasZero1() eq false&#10;    list1.hasZero2() eq false&#10;&#10;    val list2 = listOf(0, 1, 2)&#10;    list2.allNonZero() eq false&#10;    list2.allNonZero1() eq false&#10;    list2.allNonZero2() eq false&#10;&#10;    list2.hasZero() eq true&#10;    list2.hasZero1() eq true&#10;    list2.hasZero2() eq true&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -20198,7 +20198,7 @@
                             <option name="index" value="1" />
                             <option name="name" value="Examples" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Solved" />
                             <option name="files">
                               <map>
                                 <entry key="src/Factorial.kt">
