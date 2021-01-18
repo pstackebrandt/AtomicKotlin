@@ -7,7 +7,7 @@ fun List<Int>.allNonZero1() = none { it == 0 }
 fun List<Int>.allNonZero2() = any { it != 0 }
 
 fun List<Int>.hasZero() = !all { it != 0 }
-fun List<Int>.hasZero1() = none { it != 0 }
+fun List<Int>.hasZero1() = none { it < 0 }
 fun List<Int>.hasZero2() = any { it == 0 }
 
 fun main(args: Array<String>) {
